@@ -1,6 +1,6 @@
-# Template Lambda
+# step function template
 
-Typescript/Node template for AWS Lambda that deploys with AWS SAM using Github Actions
+APIGateway -> StateMachine -> Dynamodb
 
 ### Prerequisites
 
@@ -19,9 +19,4 @@ npm ci
 running tests
 ```
 npm test
-```
-
-run lambda locally
-```
-sam local invoke
 ```
